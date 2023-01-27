@@ -6,11 +6,18 @@ var numbers = 1
 //   console.log(numbers)
 //   numbers += 2
 // }
+// while (numbers <= 20) {
+//   if (numbers % 2 == 0) {
+//     console.log(numbers)
+//     numbers++
+//   } else {
+//     numbers++
+//   }
+// }
+
 while (numbers <= 20) {
   if (numbers % 2 == 0) {
     console.log(numbers)
-    numbers++
-  } else {
-    numbers++
   }
+  numbers++
 }
